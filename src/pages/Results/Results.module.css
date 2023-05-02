@@ -1,0 +1,28 @@
+.results{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.table{
+    width: 40%;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .row{
+        padding: 2!important;
+        font-size: 10px !important;
+    }
+    .col{
+        padding: 2!important;
+        font-size: 10px !important;
+    }
+    .results{
+        padding: 0px 25px 0px 25px;
+        box-sizing: border-box;
+    }
+
+  }
